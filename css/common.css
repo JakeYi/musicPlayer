@@ -1,0 +1,77 @@
+.cover {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #000 url(https://jakeyi.github.io/jirengu/task31/resourse/imge/song1.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+
+.musicbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 340px;
+    font-family: cursive;
+    font-size: 16px;
+    
+    color: #f06a6a;
+}
+
+.music-panle {
+    border: 1px solid #eee;
+    background-color: rgba(256, 235, 256, 0.1);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+    padding: 20px 30px 5px 30px;
+}
+.musicbox .control {
+    float: left;
+    color: #ee8a87;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.musicbox .control .fas {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.musicbox .control .fas.disable {
+    opacity: 0.3;
+}
+.musicbox .info {
+    margin-left: 180px;
+}
+.musicbox .info .titile{
+    font-size: 18px;
+}
+.music .info .author {
+    font-size: 12px;
+}
+.musicbox .progress {
+    width: 260px;
+}
+.musicbox .progress .bar {
+    height: 3px;
+    margin-top: 10px;
+    background-color: rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.musicbox .progress .progress-now {
+    background-color: #ee8a87;
+    height: 3px;
+    width: 0%;
+    position: relative;
+}
+.musicbox .time {
+    text-align: right;
+}
+.musicbox .music:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.musicbox .list {
+    list-style: none;
+}
